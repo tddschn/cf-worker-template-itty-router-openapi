@@ -1,6 +1,7 @@
 # Cloudflare Workers OpenAPI 3.1
 
 - [Cloudflare Workers OpenAPI 3.1](#cloudflare-workers-openapi-31)
+  - [Use this template](#use-this-template)
   - [Get started](#get-started)
   - [Project structure](#project-structure)
   - [Development](#development)
@@ -11,6 +12,13 @@ This is a Cloudflare Worker with OpenAPI 3.1 using [itty-router-openapi](https:/
 
 This is an example project made to be used as a quick start into building OpenAPI compliant Workers that generates the
 `openapi.json` schema automatically from code and validates the incoming request to the defined parameters or request body.
+
+## Use this template
+
+```
+alias c3='npm create cloudflare@latest'
+c3 -- --template https://github.com/tddschn/cf-worker-template-itty-router-openapi <name-of-your-project>
+```
 
 ## Get started
 
