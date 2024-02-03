@@ -1,0 +1,1 @@
+export const HELLO = 'hello from cf-worker-template-itty-router-openapi'
