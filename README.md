@@ -1,5 +1,12 @@
 # Cloudflare Workers OpenAPI 3.1
 
+- [Cloudflare Workers OpenAPI 3.1](#cloudflare-workers-openapi-31)
+  - [Get started](#get-started)
+  - [Project structure](#project-structure)
+  - [Development](#development)
+  - [Compared to the stock template](#compared-to-the-stock-template)
+
+
 This is a Cloudflare Worker with OpenAPI 3.1 using [itty-router-openapi](https://github.com/cloudflare/itty-router-openapi).
 
 This is an example project made to be used as a quick start into building OpenAPI compliant Workers that generates the
@@ -23,3 +30,10 @@ This is an example project made to be used as a quick start into building OpenAP
 1. Run `wrangler dev` to start a local instance of the API.
 2. Open `http://localhost:9000/` in your browser to see the Swagger interface where you can try the endpoints.
 3. Changes made in the `src/` folder will automatically trigger the server to reload, you only need to refresh the Swagger interface.
+
+## Compared to the stock template
+
+- CORS example
+- 404 undefined routes
+- removes `task` example
+- custom domain in `wrangler.toml`
